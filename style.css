@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #55284E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #7A3E6D;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.forgot {
+    display: block;
+    text-align: right;
+    color: white;
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #D89EBB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Social Icons as Colored Circles */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Google - Red */
+.google {
+    background-color: #DB4437;
+}
+
+/* Facebook - Blue */
+.facebook {
+    background-color: #1877F2;
+}
